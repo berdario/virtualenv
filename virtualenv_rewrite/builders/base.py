@@ -12,9 +12,9 @@ import shutil
 import sys
 import textwrap
 
-from virtualenv._compat import check_output
-from virtualenv._compat import FileNotFoundError
-from virtualenv._utils import cached_property
+from virtualenv_rewrite._compat import check_output
+from virtualenv_rewrite._compat import FileNotFoundError
+from virtualenv_rewrite._utils import cached_property
 
 logger = logging.getLogger(__name__)
 

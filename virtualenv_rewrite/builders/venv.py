@@ -3,8 +3,8 @@ from __future__ import absolute_import, division, print_function
 import subprocess
 import textwrap
 
-from virtualenv._compat import check_output
-from virtualenv.builders.base import BaseBuilder
+from virtualenv_rewrite._compat import check_output
+from virtualenv_rewrite.builders.base import BaseBuilder
 
 
 _SCRIPT = """

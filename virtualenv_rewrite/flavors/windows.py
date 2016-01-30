@@ -1,6 +1,6 @@
 from __future__ import absolute_import, division, print_function
 
-from virtualenv.flavors.base import BaseFlavor
+from virtualenv_rewrite.flavors.base import BaseFlavor
 
 
 class WindowsFlavor(BaseFlavor):

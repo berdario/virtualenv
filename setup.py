@@ -12,7 +12,7 @@ base_dir = os.path.dirname(__file__)
 
 # Fetch the metadata
 about = {}
-with open(os.path.join(base_dir, "virtualenv", "__about__.py")) as f:
+with open(os.path.join(base_dir, "virtualenv_rewrite", "__about__.py")) as f:
     exec(f.read(), about)
 
 
@@ -53,21 +53,21 @@ setuptools.setup(
     ],
 
     packages=[
-        "virtualenv",
-        "virtualenv.builders",
-        "virtualenv.flavors",
-        "virtualenv._scripts",
-        "virtualenv._wheels",
+        "virtualenv_rewrite",
+        "virtualenv_rewrite.builders",
+        "virtualenv_rewrite.flavors",
+        "virtualenv_rewrite._scripts",
+        "virtualenv_rewrite._wheels",
     ],
 
     package_data={
-        "virtualenv._scripts": ["activate.*", "deactivate.bat"],
-        "virtualenv._wheels": ["*.whl"],
+        "virtualenv_rewrite._scripts": ["activate.*", "deactivate.bat"],
+        "virtualenv_rewrite._wheels": ["*.whl"],
     },
 
     entry_points={
         "console_scripts": [
-            "virtualenv=virtualenv.__main__:main",
+            "virtualenv-rewrite=virtualenv_rewrite.__main__:main",
         ],
     },
 

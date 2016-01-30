@@ -1,13 +1,13 @@
 from __future__ import absolute_import, division, print_function
 
-from virtualenv.__about__ import (
+from virtualenv_rewrite.__about__ import (
     __author__, __copyright__, __email__, __license__, __summary__, __title__,
     __uri__, __version__
 )
 
 # some support for old api in legacy virtualenv
-from virtualenv.core import create
-from virtualenv.__main__ import main  # flake8: noqa
+from virtualenv_rewrite.core import create
+from virtualenv_rewrite.__main__ import main  # flake8: noqa
 
 
 __all__ = [

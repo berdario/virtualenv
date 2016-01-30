@@ -6,9 +6,9 @@ import os.path
 import sys
 import pprint
 
-from virtualenv.builders.base import BaseBuilder
-from virtualenv._utils import copyfile
-from virtualenv._utils import ensure_directory
+from virtualenv_rewrite.builders.base import BaseBuilder
+from virtualenv_rewrite._utils import copyfile
+from virtualenv_rewrite._utils import ensure_directory
 
 SITE = b"""# -*- encoding: utf-8 -*-
 import os

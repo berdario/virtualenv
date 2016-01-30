@@ -4,8 +4,8 @@ import sys
 
 import click
 
-from virtualenv import __version__
-from virtualenv.core import create
+from virtualenv_rewrite import __version__
+from virtualenv_rewrite.core import create
 
 
 @click.command(

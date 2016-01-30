@@ -5,7 +5,7 @@ __all__ = [
     "__email__", "__license__", "__copyright__",
 ]
 
-__title__ = "virtualenv"
+__title__ = "virtualenv-rewrite"
 __summary__ = "Virtual Python Environment Builder"
 __uri__ = "https://virtualenv.pypa.io/"
 

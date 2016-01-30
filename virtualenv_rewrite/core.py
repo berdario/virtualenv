@@ -3,10 +3,10 @@ from __future__ import absolute_import, division, print_function
 import os
 import sys
 
-from virtualenv.builders.legacy import LegacyBuilder
-from virtualenv.builders.venv import VenvBuilder
-from virtualenv.flavors.posix import PosixFlavor
-from virtualenv.flavors.windows import WindowsFlavor
+from virtualenv_rewrite.builders.legacy import LegacyBuilder
+from virtualenv_rewrite.builders.venv import VenvBuilder
+from virtualenv_rewrite.flavors.posix import PosixFlavor
+from virtualenv_rewrite.flavors.windows import WindowsFlavor
 
 
 def select_flavor():
